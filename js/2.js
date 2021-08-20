@@ -25,7 +25,7 @@ J2valorbtn2.addEventListener('click', J2agregar2alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 1;
+        valorjuego2.innerHTML = 2;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
@@ -38,7 +38,7 @@ J2valorbtn4.addEventListener('click', J2agregar4alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 2;
+        valorjuego2.innerHTML = 4;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
@@ -51,7 +51,7 @@ J2valorbtn6.addEventListener('click', J2agregar6alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 3;
+        valorjuego2.innerHTML = 6;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
@@ -64,7 +64,7 @@ valorbtn8.addEventListener('click', agregar8alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 4;
+        valorjuego2.innerHTML = 8;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
@@ -77,7 +77,7 @@ valorbtn10.addEventListener('click', agregar10alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 5;
+        valorjuego2.innerHTML = 10;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
@@ -90,7 +90,7 @@ valorbtn12.addEventListener('click', agregar12alDOM);
         }
         let valorDefjuego2 = document.getElementById('valorDefjuego2');
         let valorjuego2 = document.createElement('h6');
-        valorjuego2.innerHTML = 6;
+        valorjuego2.innerHTML = 12;
         valorDefjuego2.appendChild(valorjuego2);
   
     }
