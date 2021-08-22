@@ -9,11 +9,6 @@ body {
   color: #ffff;
 }
 
-.gen-title {
-  text-align: center;
-  margin-top: 1em;
-}
-
 .general-conteiner {
   width: 100%;
   height: auto;
@@ -40,4 +35,8 @@ td {
 .inputStyles {
   color: #ffff;
   background-color: black;
+}
+
+/*---------------------------------------RESPONSIVE---------------------------------------*/
+@media (orientation: landscape) {
 }
