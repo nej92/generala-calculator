@@ -37,17 +37,7 @@ td {
   width: 100%;
 }
 
-.juego1 {
-  display: none;
-  width: 100%;
-}
-
-.juego2 {
-  display: none;
-  width: 100%;
-}
-
-.juego3 {
-  display: none;
-  width: 100%;
+.inputStyles {
+  color: #ffff;
+  background-color: black;
 }
