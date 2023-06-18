@@ -12,7 +12,6 @@ body {
 .general-conteiner {
   width: 100%;
   height: auto;
-  margin-top: 5rem;
 }
 
 table,
@@ -26,10 +25,6 @@ th,
 td {
   padding: 0.5em;
   text-align: center;
-}
-
-.buttons {
-  width: 100%;
 }
 
 .inputStyles {

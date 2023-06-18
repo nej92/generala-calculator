@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Gomawo';
+    src: url(style/fuentes/Gomawo.ttf);
+}
+
+body {
+    background-color: rgb(38, 131, 45);
+    color: aliceblue;
+    text-align: center;
+}
+
+.nos_ellos_conteiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nos_ellos {
+    width: 100%;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 3px solid white;
+    padding: 1rem;
+}
+
+.nos_ellos>label {
+    font-size: 10rem;
+}
+
+.nos_ellos_ptos {
+    display: grid;
+    width: 100%;
+    grid-row: 2;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nos_ellos_ptos>div {
+    margin-top: 5rem;
+}
+
+.ptos_style {
+    font-family: 'Gomawo';
+    font-size: 10rem;
+    margin: 1rem;
+}
+
+.btn_style {
+    font-size: 1.5rem;
+    padding: .6rem;
+    margin: 1rem;
+}
+
+#btnReset {
+    position: relative;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 30%;
+    margin-top: 10rem;
+}
+
+#back-to-menu {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 0px 40px 40px;
+}
+
+#nos {
+    display: none;
+}
+
+#ellos {
+    display: none;
+}
+
+/*------------------------RESPONSIVE------------------------*/
+
+@media (max-width: 1200px) {
+    .nos_ellos>label {
+        font-size: 7rem;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .nos_ellos>label {
+        font-size: 5rem;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .nos_ellos>label {
+        font-size: 3rem;
+    }
+
+    .nos_ellos_ptos>div {
+        font-size: 5rem;
+    }
+}
