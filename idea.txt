@@ -1,3 +1,4 @@
 Varios juegos.
 TRUCO
 GENERALA
+POKER(timer para subir ENTRADAS)

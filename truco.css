@@ -71,13 +71,14 @@ body {
 }
 
 #back-to-menu {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    margin: 0px 0px 40px 40px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 5rem;
 }
 
-#back-to-menu>a>img {
+#back-to-menu>button>a>img {
     width: 4rem;
 }
 
